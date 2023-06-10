@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/uis/music_app/music_main_screen.dart';
 import 'package:flutter_ui/uis/sales_order_analysis.dart';
+import 'package:flutter_ui/uis/task_manager/task_manager_chat_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        textTheme: GoogleFonts.outfitTextTheme(),
+        textTheme: GoogleFonts.robotoFlexTextTheme(),
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MusicMainScreen(),
+      home: const TaskManagerChatScreen(),
     );
   }
 }
