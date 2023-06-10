@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/uis/music_app/music_main_screen.dart';
 import 'package:flutter_ui/uis/sales_order_analysis.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SalesOrderAnalysis(),
+      home: const MusicMainScreen(),
     );
   }
 }
