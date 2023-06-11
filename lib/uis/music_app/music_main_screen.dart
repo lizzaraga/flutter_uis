@@ -97,9 +97,9 @@ class _MusicHomeView extends HookWidget{
                 MusicItem("Red Flag", "Ruger", "assets/images/red_flag.png", false),
                 MusicItem("Love Don't Care", "Simi", "assets/images/love_dont_care.png", true),
                 MusicItem("Okay", "Adekunle Gold", "assets/images/okay_okay.png", false),
-                MusicItem("Understand", "Omah Lay", "assets/images/teni.png", false),
-                MusicItem("For Life", "Runtown", "assets/images/teni.png", false),
-                MusicItem("Leg Over", "Mr Easy", "assets/images/teni.png", false),
+                MusicItem("Understand", "Omah Lay", "assets/images/understand.png", false),
+                MusicItem("For Life", "Runtown", "assets/images/for_life.png", false),
+                MusicItem("Leg Over", "Mr Easy", "assets/images/leg_over.png", false),
               ],
             )
           ],
